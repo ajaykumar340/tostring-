@@ -1,0 +1,27 @@
+ class HelloWorld{
+    private int ajaykumar,ajaykumar2;
+    HelloWorld(int ajaykumar,int ajaykumar2)
+    {
+        this.ajaykumar=ajaykumar;
+        this.ajaykumar2=ajaykumar2;
+        System.out.println(ajaykumar);
+                System.out.println(ajaykumar2);
+
+    }
+    public int getajaykumar()
+    {
+        return this.ajaykumar;
+    }
+    public int getajaykumar2()
+    {
+        return this.ajaykumar2;
+    }
+    public  String toString(){
+        return"hi good afternoon...";
+    }
+    public static void main(String []args)
+    {
+        HelloWorld t=new HelloWorld(24,67);
+        System.out.println(t);
+    }
+}
